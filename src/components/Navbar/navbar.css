@@ -9,6 +9,7 @@
     width: 85vw;
     margin-left: 4.5rem;
     box-shadow: 10px 10px grey;
+    height: 80px;
 }
 .navbar div{
     display: flex;

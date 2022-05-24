@@ -3,14 +3,14 @@ import './contactme.css';
 
 function Contactme(){
     return(
-        <div className="contact">
-            <div className="contact-text">
+        <div className="contacthead">
+            <div className="contacthead-text">
                 <p>CONTACT ME</p>
             </div>
-            <div className="contact-me">
+            <div className="contacthead-me">
                 <p>Let's Get In Touch</p>
             </div>
-            <div className="contact-image">
+            <div className="contacthead-image">
                 <img src="./assets/underliner3.png" alt="_blank" />
             </div>
         </div>

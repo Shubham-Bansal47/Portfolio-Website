@@ -1,11 +1,11 @@
-.contact{
+.contacthead{
     text-align: center;
 }
-.contact-image img{
+.contacthead-image img{
     width: 200px;
     margin-bottom: 2rem;
 }
-.contact-text p
+.contacthead-text p
 {
     font-size: x-large;
     font-weight: bold;
