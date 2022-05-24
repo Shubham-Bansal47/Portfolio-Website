@@ -1,0 +1,11 @@
+.profile-handles a{
+    margin: 3px;
+    color: brown;
+  }
+  .profile-handles{
+    margin: 1rem;
+  }
+  .profile-handles i:hover{
+      transform: scale(1.5);
+      transition: 0.5s ease-out;
+  }
