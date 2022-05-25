@@ -32,10 +32,11 @@ function Profile() {
             </span>
           </div>
           <div className="profile-brief">
-            <span>
-              I'm a tech enthusiast with handful experience on web <br></br>
-              development and had made significant advancement <br></br>in HTML,
-              CSS, Javascript, Bootstrap, CDN reference.
+            <h3>
+              Front-End Web Developer Enthusiast
+            </h3>
+            <span>  
+            Inclined towards Learning and exploring new stuff!! 
             </span>
           </div>
           <div className="profile-contact">

@@ -1,0 +1,14 @@
+.aboutmehead{
+    text-align: center;
+}
+.aboutmehead-image img{
+    width: 200px;
+    margin-bottom: 2rem;
+}
+.aboutmehead-text p
+{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}

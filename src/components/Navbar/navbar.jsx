@@ -8,7 +8,7 @@ function Navbar(){
                 <img src="./assets/portfolioic1.jpg" alt="_blank" />
             </div>
             <div className="navbar-links">
-                <a href="">
+                <a href=".navbar">
                     <p>Home</p>
                 </a>
                 <a href="">

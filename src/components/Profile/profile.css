@@ -7,7 +7,7 @@
     border-radius: 0.5rem;
     width: 90vw;
     margin-left: 4rem;
-    box-shadow: 10px 10px grey;
+    box-shadow: 0px 0px 30px black;
   }
   .profile-inner-left{
     margin-left: 18%;
@@ -25,7 +25,7 @@
     transition: 0.5s ease-out;
   }
   .profile-name{
-    font-size: large;
+    font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .profile-name span{
@@ -35,10 +35,14 @@
   .profile-skill-heading{
     color: orangered;
     font-family: italic;
+    font-size: xx-large;
+  }
+  .profile-brief h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .profile-brief span{
     font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
   }
   .profile-brief{
     margin-bottom: 1rem;
