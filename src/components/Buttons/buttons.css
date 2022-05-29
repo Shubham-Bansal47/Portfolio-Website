@@ -1,0 +1,15 @@
+.button{
+    display:flex;
+    margin-left: 6rem;
+}
+.button button{
+    margin: 0.5rem;     
+    border-radius: 0.8rem;
+    color: black;
+    background-color: bisque;
+    font-weight: bold;
+  }
+  .button button:hover{
+    transform: scale(1.08);
+    transition: 1s ease-out;
+  }

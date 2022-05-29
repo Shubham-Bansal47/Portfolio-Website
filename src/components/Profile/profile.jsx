@@ -2,6 +2,7 @@ import React from "react";
 import "./profile.css";
 import Typical from "react-typical";
 import Handles from "../Handles/handles";
+import Buttons from "../Buttons/buttons";
 
 function Profile() {
   return (
@@ -39,18 +40,7 @@ function Profile() {
             Inclined towards Learning and exploring new stuff!! 
             </span>
           </div>
-          <div className="profile-contact">
-            <button className="hireme">
-              <p> Hire Me </p>
-            </button>
-            <button className="resume">
-              <p>
-                <a href="./Resume2022.pdf" download="Shubham's Resume.pdf">
-                  Get My Resume
-                </a>
-              </p>
-            </button>
-          </div>
+          <Buttons/>
         </div>
         <div className="profile-inner-right">
           <img src="./assets/profilepic3.jpg" alt="_blank" />

@@ -1,5 +1,6 @@
 import React from "react";
 import "./aboutme.css";
+import Buttons from '../Buttons/buttons';
 
 function Aboutme() {
   return (
@@ -32,14 +33,7 @@ function Aboutme() {
             <li>I was in the top 200 students qualifying codechef smackdown contest 2021.</li>
           </ul>
         </div>
-        <div className="aboutme-button">
-            <button>
-                <p>Hire Me</p>
-            </button>
-            <button>
-                <p>Get My Resume</p>
-            </button>
-        </div>
+        <Buttons/>
       </div>
     </div>
   );

@@ -1,87 +1,87 @@
- .profile-outer{
-    background-color: #26004d;
-    color: white;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    border-radius: 0.5rem;
-    width: 90vw;
-    margin-left: 4rem;
-    box-shadow: 0px 0px 30px black;
-  }
-  .profile-inner-left{
-    margin-left: 18%;
-    width: 420px;
-  }
-  .profile-inner-right{
-    margin: 1rem 0 1rem 9rem;
-  }
+.profile-outer{
+  background-color: #26004d;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 90vw;
+  margin-left: 4rem;
+  box-shadow: 0px 0px 30px black;
+}
+.profile-inner-left{
+  margin-left: 18%;
+  width: 420px;
+}
+.profile-inner-right{
+  margin: 1rem 0 1rem 9rem;
+}
+.profile-inner-right img{
+  height: 350px;
+  border-radius: 2rem;
+}
+.profile-inner-right img:hover{
+  transform: scale(1.03);
+  transition: 0.5s ease-out;
+}
+.profile-name{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile-name span{
+  color:burlywood;
+  text-decoration: underline;
+}
+.profile-skill-heading{
+  color: orangered;
+  font-family: italic;
+  font-size: xx-large;
+}
+.profile-brief h3{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-brief span{
+  font-size: medium;
+  font-family:'Times New Roman', Times, serif;
+}
+.profile-brief{
+  margin-bottom: 1rem;
+}
+.profile-contact button{
+  margin: 0.5rem;
+  border-radius: 0.8rem;
+  color: black;
+  background-color: bisque;
+  font-weight: bold;
+}
+.profile-contact button:hover{
+  transform: scale(1.08);
+  transition: 1s ease-out;
+}
+@media screen and (max-width: 1110px){
   .profile-inner-right img{
-    height: 350px;
-    border-radius: 2rem;
-  }
-  .profile-inner-right img:hover{
-    transform: scale(1.03);
-    transition: 0.5s ease-out;
+      margin: 0 0 0 80px;
   }
   .profile-name{
-    font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
   }
-  .profile-name span{
-    color:burlywood;
-    text-decoration: underline;
-  }
-  .profile-skill-heading{
-    color: orangered;
-    font-family: italic;
-    font-size: xx-large;
-  }
-  .profile-brief h3{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .profile-brief span{
-    font-size: medium;
-    font-family:'Times New Roman', Times, serif;
-  }
-  .profile-brief{
-    margin-bottom: 1rem;
+  .profile-skill{
+      font-size: 12px;
   }
   .profile-contact button{
-    margin: 0.5rem;
-    border-radius: 0.8rem;
-    color: black;
-    background-color: bisque;
-    font-weight: bold;
+      width: 120px;
+      padding: 11px 0;
+      z-index: 700;
   }
-  .profile-contact button:hover{
-    transform: scale(1.08);
-    transition: 1s ease-out;
+}
+@media screen and (max-width: 910px){
+  .profile-inner-right img{
+      height: 320px;
+      margin: 0 0 0 4px;
   }
-  @media screen and (max-width: 1110px){
-    .profile-inner-right img{
-        margin: 0 0 0 80px;
-    }
-    .profile-name{
-        font-size: 20px;
-    }
-    .profile-skill{
-        font-size: 12px;
-    }
-    .profile-contact button{
-        width: 120px;
-        padding: 11px 0;
-        z-index: 700;
-    }
+}
+@media screen and (max-width: 810px){
+  .profile-inner-right img{
+      margin: 0 !important;
   }
-  @media screen and (max-width: 910px){
-    .profile-inner-right img{
-        height: 320px;
-        margin: 0 0 0 4px;
-    }
-  }
-  @media screen and (max-width: 810px){
-    .profile-inner-right img{
-        margin: 0 !important;
-    }
-  }
+}

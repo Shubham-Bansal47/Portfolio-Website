@@ -8,7 +8,7 @@
     box-shadow: 0px 0px 30px black;
 }
 .aboutme-image{
-    width: 50%;
+    width: 30%;
     margin: 2rem;
 }    
 .aboutme-image img{
@@ -19,17 +19,4 @@
 }
 .aboutme-skills ul{
     color: orange;
-}
-.aboutme-button{
-    margin-top: 3rem;
-    text-align: center;
-}
-.aboutme-button button{
-    margin: 0.5rem;
-    border-radius: 1rem;
-    background-color: bisque;
-}
-.aboutme-button p{
-    color: black;
-    font-weight: bold;
 }

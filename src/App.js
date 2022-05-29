@@ -8,6 +8,7 @@ import Contact from './components/Contactme/contact';
 import Aboutmehead from './components/Aboutmehead/aboutmehead';
 import Aboutme from './components/Aboutme/aboutme';
 import Resumehead from './components/Resumehead/resumehead';
+import Resume from './components/Resume/resume';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Aboutmehead/>
       <Aboutme/>
       <Resumehead/>
+      <Resume/>
       <Contactme/>
       <Contact/>
     </div>
