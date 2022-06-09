@@ -34,7 +34,7 @@
     width: 20vw;
     border: 0.2rem solid white;
 }
- .contact-right{
+.contact-right{
     background-color:bisque;
     margin: 2rem;
     width: 50%;
@@ -43,50 +43,56 @@
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 } 
-
-
-
-
-/* .contact-right div{
-    margin: 0.5rem;
+.name{
+    margin-top: 1rem;
 }
-.contact-right div p{
-    font-size: large;
-    font-weight: bolder;
-    margin-left: 1rem;
-}
-.contact-right div input{
-    border-radius: 0.5rem;
-    height: 1.5rem;
-    width: 70%;
-    margin-left: 1rem;
-}
-.contact-right div textarea{
-    border-radius: 0.5rem;
-    height: 3rem;
-    width: 70%;
-    margin-left: 1rem;
-}
-.contact-button{
-    margin-left: 1rem;
-}
-.contact-button button{
-    border-radius: 1rem;
-    background-color: #130933;
-    color: white;
-    width: 8rem;
-    height: 3rem;
-    font-size: large;
+.name,.email,.message{
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: space-around;
+}
+.contact-right span{
+    font-size: large;
+    margin-left: 1rem;
+    background-color: #000000;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-right input{
+    width: 15vw;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+.contact-click,.contact-button{
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
-.contact-button span{
+.contact-click p{
+    font-size: large;
+    font-weight: 400;
+}
+.contact-right textarea{
+    width: 13vw;
+    height: 3rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+.contact-right button{
+    background-color: #26004d;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+    font-weight: bold;
+}
+.contact-right span{
     margin-left: 0.4rem;
-} */
-input{
-    background-color: white;
+}
+.contact-button{
+    margin-bottom: 1rem;
 }

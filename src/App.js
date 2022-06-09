@@ -9,6 +9,7 @@ import Aboutmehead from './components/Aboutmehead/aboutmehead';
 import Aboutme from './components/Aboutme/aboutme';
 import Resumehead from './components/Resumehead/resumehead';
 import Resume from './components/Resume/resume';
+import Footer from './components/Footer/footer';
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       <Resume/>
       <Contactme/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

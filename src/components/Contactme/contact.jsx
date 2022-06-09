@@ -13,7 +13,7 @@ function Contact() {
         </div>
         <Handles/>
         <div className="contact-mail">
-            <p>!!Drop Me A Mail Here--!!</p>
+            <p>!!--Drop Me A Mail--!!</p>
         </div>
         <div className="contact-image">
           <img src="./assets/email.png" alt="_blank" />
@@ -21,25 +21,19 @@ function Contact() {
       </div>
       <div className="contact-right">
           <div className="name">
-            <p>Name!</p>
-          </div>
-          <div className="contact-nameentry">
+            <span>Name!</span>
             <input type='email' placeholder="Enter Your Name"></input>
           </div>
           <div className="email">
-            <p>Email!</p>
-          </div>
-          <div className="contact-emailentry">
+            <span>Email!</span>
             <input type='email' placeholder="Enter Your Email"></input>
           </div>
-          <div className="Message">
-            <p>Message!</p>
-          </div>
-          <div className="contact-messageentry">
+          <div className="message">
+            <span>Message!</span>
             <textarea placeholder="Type the text here"></textarea>
           </div>
           <div className="contact-click">
-            <p>!!Click Here To send an email--</p>
+            <p>!!--Click Here To send an email--!!</p>
           </div>
           <div className="contact-button">
             <button>

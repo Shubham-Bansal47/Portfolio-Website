@@ -93,6 +93,9 @@
     flex-direction: column;
     
 }
+.color1{
+    color: orangered;
+}
 .res-right{
     margin-right: 2rem;
     display: flex;

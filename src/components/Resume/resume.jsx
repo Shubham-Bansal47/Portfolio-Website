@@ -24,12 +24,12 @@ function Resume() {
             <div className="res-left">
               <h4>&#9830; The LNM Institute of Information and Technology</h4>
               <h4>Jaipur, Rajasthan</h4>
-              <span>
+              <span className="color1">
                 Bachelor of Technology in Electronics and Communication
               </span>
             </div>
             <div className="res-right">
-              <span>2020-2024</span>
+              <span className="color1">2020-2024</span>
             </div>
           </div>
           <hr />
@@ -37,10 +37,10 @@ function Resume() {
             <div className="res-left">
               <h4>&#9830; Shaheed Major James Thomas School</h4>
               <h4>Bikaner, Rajasthan</h4>
-              <span>Senior Secondary Education</span>
+              <span className="color1">Senior Secondary Education</span>
             </div>
             <div className="res-right">
-              <span>2018-2020</span>
+              <span className="color1">2018-2020</span>
             </div>
           </div>
           <hr />
@@ -48,10 +48,10 @@ function Resume() {
             <div className="res-left">
               <h4>&#9830; Bikaner Boys School</h4>
               <h4>Bikaner, Rajasthan</h4>
-              <span>Secondary Education</span>
+              <span className="color1">Secondary Education</span>
             </div>
             <div className="res-right">
-              <span>Till 2018</span>
+              <span className="color1">Till 2018</span>
             </div>
           </div>
         </div>
