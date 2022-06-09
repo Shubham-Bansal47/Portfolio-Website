@@ -36,17 +36,19 @@ function Contact() {
             <p>Message!</p>
           </div>
           <div className="contact-messageentry">
-            <input type='text' placeholder="Type the text here"></input>
+            <textarea placeholder="Type the text here"></textarea>
           </div>
           <div className="contact-click">
             <p>!!Click Here To send an email--</p>
           </div>
           <div className="contact-button">
             <button>
-              <p>Send Mail <i className="fa fa-telegram"></i></p>
+              Send Mail
+              <span className="fa fa-telegram"></span>
             </button>
           </div>
       </div>
+      
     </div>
   );
 }

@@ -11,6 +11,7 @@ import Resumehead from './components/Resumehead/resumehead';
 import Resume from './components/Resume/resume';
 
 function App() {
+  
   return (
     <div className="App">
       <Navbar/>

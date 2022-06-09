@@ -1,6 +1,6 @@
 .button{
     display:flex;
-    margin-left: 6rem;
+    justify-content: center;
 }
 .button button{
     margin: 0.5rem;     
@@ -10,6 +10,5 @@
     font-weight: bold;
   }
   .button button:hover{
-    transform: scale(1.08);
-    transition: 1s ease-out;
+    transform: scale(1.2);
   }

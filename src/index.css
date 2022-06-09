@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,38 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media(max-width:998px){
+  html{
+    font-size: 55%
+  }
+}
+
+@media(max-width:768px)
+{
+  html{
+    font-size: 40%;
+  }
+}
+
+@media(max-width:713px)
+{
+  html{
+    font-size: 30%;
+  }
+}
+
+@media(max-width:668px)
+{
+  html{
+    font-size: 20%;
+  }
+}
+
+@media(max-width:600px)
+{
+  html{
+    font-size: 10%;
+  }
 }

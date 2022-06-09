@@ -9,7 +9,7 @@
     width: 85vw;
     margin-left: 4.5rem;
     box-shadow: 10px 10px grey;
-    height: 80px;
+    height: 70px;
 }
 .navbar div{
     display: flex;
@@ -17,26 +17,31 @@
     align-items: center;
     text-align: center;
 }
-.navbar-icon{
+.navbar-left{
     margin: 1rem;
+    border-radius: 0.2rem solid white;
 }
-.navbar-icon img{
-    height: 80px;
+.navbar-left img{
+    border: 0.2rem solid black;
+    height: 5rem;
     border-radius: 1rem;
 }
-.navbar-links{
+.navbar-right{
+    width: 70%;
     display: inline-flex;
+    border: 0.2rem solid white;
+    background-color: #130933;
 }
-.navbar-links a{
-    margin-right: 5rem;
+.navbar-right a{
+    margin: 0rem 2rem;
 }
-.navbar-links p{
+.navbar-right p{
     margin-right: 2rem;
     text-decoration: underline;
     font-size: x-large;
     color: white;
 }
-.navbar-links p:hover{
+.navbar-right p:hover{
     color: tomato;
 }
 
