@@ -1,32 +1,37 @@
 .aboutme{
-    background-color: #26004d;
-    width: 60vw;
-    margin-left: 18.5%;
+    background-color: #161b22;
+    width: 70vw;
+    height: 80vh;
+    padding: 1rem;
     border-radius: 0.5rem;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     color: beige;
     box-shadow: 0px 0px 30px black;
-    justify-content: center;
 }
 .aboutme-image{
-    /* width: 40%; */
-    margin: 2rem;
-    margin-right: 2rem;
-    border: 0.2rem solid white;
-    text-align: center;
-    
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }    
 .aboutme-image img{
-    height: 80vh;
-    border: 0.5rem solid black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .aboutme-text{
     width: 60%;
-    background-color: #150328;
+    height: 70vh;
+    background-color: #161b22;
     padding: 1rem;
-    margin: 2rem;
-    margin-left: 2rem;
-    border: 0.2rem solid white;
+    /* border: 0.2rem solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .aboutme-skills ul{
     color: orange;

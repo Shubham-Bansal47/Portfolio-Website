@@ -7,13 +7,13 @@ function Footer(){
         <div className="footer">
             <div className="footer-in">
                 <div className="top-text">
-                    <p>BADBOY-47</p>
+                    <p>Hope You Liked It</p>
                 </div>
                 <div className="mid-text">
                     <Handles/>
                 </div>
                 <div className="bottom-text">
-                    <p>&#169; <span>BADBOY-47's</span> Website, All Rights Reserved.</p>
+                    <p>&#169; <span>SHUBHAM's</span> Website, All Rights Reserved.</p>
                 </div>
             </div>
         </div>

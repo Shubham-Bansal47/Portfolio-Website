@@ -1,57 +1,45 @@
 .resume{
     width: 70vw;
-    background-color: #26004d;
+    height: 70vh;
+    padding: 2rem;
+    background-color: #161b22;
     border-radius: 0.5rem;
-    margin-left: 14%;
     box-shadow: 0px 0px 30px black;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 .resume-left{
+    border: 0.2rem solid white;
     display: flex;
     flex-direction: column;
-    background-color: #26004d;
-    border-radius: 1rem;
-    width: 4vw;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-}
-.resume-mid{
-    display: flex;
-    flex-direction: column;
-    background-color: bisque;
-    border-radius: 1rem;
-    width: 24vw;
-    justify-content: space-around;
-    margin-left: 0rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    background-color: #161b22;
+    width: 30%;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: x-large;
+    /* overflow: hidden; */
 }
 .resume-left span{
-    font-size: xx-large;
-    margin: 1rem;
-}
-.resume-mid span{
-    font-size: x-large;
+    width: 100%;
     font-weight: 400;
+    color: beige;
 }
 .icon1{
-    color: white;
-    padding: 0.5rem;
-    border-radius: 0.4rem;
+    margin: 0rem 0.5rem;
 }
 .label{
-    color: #26004d;
-    padding: 0.5rem;
+    color: white;
+    padding: 0.5rem 0rem;
+}
+.icon1:hover{
+    color: black;
 }
 .label:hover{
-    color: white;
-    background-color: #26004d;
-    border-radius: 0.4rem;
+    color: black;
+    background-color: white;
 }
 .resume-right{
     background-color: bisque;
@@ -60,6 +48,7 @@
     border-radius: 1rem;
     margin: 1rem;
     display: flex;
+    /* align-items: center; */
     flex-direction: column;
     justify-content: space-around;
     scroll-behavior: smooth; 
@@ -71,6 +60,7 @@
     border-radius: 1rem;
     margin: 1rem;
     display: flex;
+    /* align-items: center; */
     flex-direction: column;
     justify-content: space-around;
 }
@@ -90,8 +80,7 @@
     padding: 0.5rem;
     height: 5rem;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 .color1{
     color: orangered;

@@ -9,18 +9,10 @@ function Navbar(){
                 <img src="./assets/portfolioic1.jpg" alt="_blank" />
             </div>
             <div className="navbar-right">
-                <a href=".navbar">
-                    <p>Home</p>
-                </a>
-                <a href="">
-                    <p>About Me</p>
-                </a>
-                <a href="">
-                    <p>Resume</p>
-                </a>
-                <a href="">
-                    <p>Contact Me</p>
-                </a>
+                <a href=".navbar">Home</a>
+                <a href="">About Me</a>
+                <a href="">Resume</a>
+                <a href="">Contact Me</a>
             </div>
         </div>
     )

@@ -1,11 +1,15 @@
-.contacthead{
+.heading{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-.contacthead-image img{
+.heading-image img{
     width: 200px;
     margin-bottom: 2rem;
 }
-.contacthead-text p
+.heading-text p
 {
     font-size: x-large;
     font-weight: bold;

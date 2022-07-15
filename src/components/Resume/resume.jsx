@@ -5,18 +5,11 @@ function Resume() {
   return (
     <div className="resume">
       <div className="resume-left">
-        <span className="fa fa-graduation-cap icon1"></span>
-        <span className="fa fa-calendar-times-o icon1"></span>
-        <span className="fa fa-laptop icon1"></span>
-        <span className="fa fa-bar-chart-o icon1"></span>
-        <span className="fa fa-paint-brush icon1"></span>
-      </div>
-      <div className="resume-mid">
-        <span className="label">Education</span>
-        <span className="label">Work History</span>
-        <span className="label">Skills</span>
-        <span className="label">Projects</span>
-        <span className="label">Interests</span>
+        <span className="label"><i className="fa fa-graduation-cap icon1"></i>Education</span>
+        <span className="label"><i className="fa fa-calendar-times-o icon1"></i>Work History</span>
+        <span className="label"><i className="fa fa-laptop icon1"></i>Skills</span>
+        <span className="label"><i className="fa fa-bar-chart-o icon1"></i>Projects</span>
+        <span className="label"><i className="fa fa-paint-brush icon1"></i>Interests</span>
       </div>
       <div className="resume-right">
         <div className="education">

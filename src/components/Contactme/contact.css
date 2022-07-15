@@ -1,49 +1,61 @@
 .contact{
-    background-color: #26004d;
+    background-color: #161b22;
+    padding: 1rem 2rem;
     width: 70vw;
-    margin-left: 14%;
     border-radius: 0.5rem;
     box-shadow: 0px 0px 30px black;
     height: 70vh;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 }
-.contact-left{
-    margin: 2rem;
+.contact-left{  
     width: 50%;
-    background-color: #150328;
-    border: 0.2rem solid white;
+    height: 80%;
+    /* margin-right: 1rem; */
+    background-color: #161b22;
+    /* border: 0.2rem solid white; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     text-align: center;
-    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    /* overflow: hidden; */
+    border-radius: 0.5rem;
+    font-size: large;
+    color: beige;
 }
-.contact-touch p{
-    color: white;
+.contact-touch{
+    margin-top: 0rem;
     font-size: x-large;
     font-weight: bold;
 }
-.contact-mail p{
-    color: white;
-    font-family: italic;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.contact-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 80%;
 }
 .contact-image img{
-    height: 20vh;
-    width: 20vw;
-    border: 0.2rem solid white;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border: 0.2rem solid white; */
 }
 .contact-right{
     background-color:bisque;
-    margin: 2rem;
+    /* margin-left: 1rem; */
     width: 50%;
-    border: 0.2rem solid white;
+    height: 80%;
+    /* border: 0.2rem solid white; */
     overflow: hidden;
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 0.5rem;
 } 
 .name{
     margin-top: 1rem;
@@ -83,7 +95,7 @@
     color: black;
 }
 .contact-right button{
-    background-color: #26004d;
+    background-color: #161b22;
     color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;

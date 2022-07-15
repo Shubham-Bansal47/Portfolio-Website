@@ -6,15 +6,9 @@ function Contact() {
   return(
     <div className="contact">
       <div className="contact-left">
-        <div className="contact-touch">
-          <p>
-            Get In Touch <i className="fa fa-envelope"></i>
-          </p>
-        </div>
+        <p className="contact-touch">Get In Touch <i className="fa fa-envelope"></i></p>
         <Handles/>
-        <div className="contact-mail">
-            <p>!!--Drop Me A Mail--!!</p>
-        </div>
+        <p>!!--Drop Me A Mail--!!</p>
         <div className="contact-image">
           <img src="./assets/email.png" alt="_blank" />
         </div>

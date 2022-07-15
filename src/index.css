@@ -14,37 +14,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-@media(max-width:998px){
-  html{
-    font-size: 55%
-  }
-}
-
-@media(max-width:768px)
+@media(max-width: 1059px)
 {
-  html{
-    font-size: 40%;
-  }
+    html{
+        font-size: 60%;
+    }
 }
-
-@media(max-width:713px)
+@media(max-width: 859px)
 {
-  html{
-    font-size: 30%;
-  }
+    html{
+        font-size: 40%;
+    }
 }
-
-@media(max-width:668px)
+@media(max-width: 738px)
 {
-  html{
-    font-size: 20%;
-  }
-}
-
-@media(max-width:600px)
-{
-  html{
-    font-size: 10%;
-  }
+    html{
+        font-size: 30%;
+    }
 }
