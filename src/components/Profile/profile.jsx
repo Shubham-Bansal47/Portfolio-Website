@@ -43,7 +43,7 @@ function Profile() {
           <Buttons/>
         </div>
         <div className="profile-inner-right">
-          <img src="./assets/profilepic3.jpg" alt="_blank" />
+          <img src="./assets/profilepic.jpg" alt="_blank" />
         </div>
       </div>
     </div>

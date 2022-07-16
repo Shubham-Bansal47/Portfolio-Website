@@ -29,6 +29,13 @@ function App() {
     }
   ];
 
+  function gettingdatainapp(datarecorded){ // Made a function which gets argument from contact component and 
+    const datarecordedapp=[                // spread its data to datarecordedapp object
+      ...datarecorded                      // baically we passed the data from child to parent
+    ];
+    console.log(datarecordedapp);
+  };
+  
   return(
     <div className="App">
       <Navbar/>
@@ -47,7 +54,7 @@ function App() {
       <Headings 
       sendingtitle={list[3].heading}
       sendingintro={list[3].intro}/>
-      <Contact/>
+      <Contact callingcontact={gettingdatainapp}/> {/* called contact */}
       <Footer/>
     </div>
   );

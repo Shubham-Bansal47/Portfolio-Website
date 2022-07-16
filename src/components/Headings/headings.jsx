@@ -11,7 +11,7 @@ function Headings(props){
                 <p>{props.sendingintro}</p>
             </div>
             <div className="heading-image">
-                <img src="./assets/underliner3.png" alt="_blank" />
+                <img src="./assets/headingdesign.png" alt="_blank" />
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ function Aboutme() {
     <div className="aboutme-main">
       <div className="aboutme">
         <div className="aboutme-image">
-          <img src="./assets/profilepicture.jpg" alt="_blank" />
+          <img src="./assets/aboutmepic.jpeg" alt="_blank" />
         </div>
         <div className="aboutme-text">
           <div className="aboutme-uptext">
@@ -16,8 +16,8 @@ function Aboutme() {
               Information Technology, Jaipur.I am more tilted towards the tech
               world with handful experience on web development and had made
               significant advancement with some amazing projects based on
-              Front-End frameworks which includes E-Commerce Coffee Website,
-              Personal Portfolio, etc.
+              Front-End frameworks which includes and SOS message sending website, E-Commerce Coffee Website,
+              Personal Portfolio and many more.
             </p>
           </div>
           <div className="aboutme-skills">

@@ -11,10 +11,9 @@
     justify-content: space-around;
 }
 .contact-left{  
-    width: 50%;
+    width: 60%;
     height: 80%;
     /* margin-right: 1rem; */
-    background-color: #161b22;
     /* border: 0.2rem solid white; */
     display: flex;
     flex-direction: column;
@@ -45,66 +44,58 @@
     /* border: 0.2rem solid white; */
 }
 .contact-right{
-    background-color:bisque;
+    background-color:black;
     /* margin-left: 1rem; */
-    width: 50%;
+    width: 40%;
     height: 80%;
-    /* border: 0.2rem solid white; */
+    /* border: 0.2rem solid red; */
     overflow: hidden;
-    padding-left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 0.5rem;
-} 
-.name{
-    margin-top: 1rem;
-}
-.name,.email,.message{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.contact-right span{
-    font-size: large;
-    margin-left: 1rem;
-    background-color: #000000;
+    padding: 1rem;
     color: white;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+} 
+.contact-form{
+    height: 100%;
+    /* padding: 1rem 1rem 0rem 1rem; */
+    /* border: 0.2rem solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight:500;
 }
 .contact-right input{
-    width: 15vw;
-    height: 1.5rem;
-    border-radius: 0.5rem;
-    color: black;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    width: 90%;
+    border-radius: 0.2rem;
+    border: none;
 }
-.contact-click,.contact-button{
+.contact-right textarea{
+    width: 90%;
+    height: 5rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.contact-button{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.contact-click p{
+.contact-button button{
+    font-weight: bold;
     font-size: large;
-    font-weight: 400;
-}
-.contact-right textarea{
-    width: 13vw;
-    height: 3rem;
-    border-radius: 0.5rem;
-    color: black;
-}
-.contact-right button{
-    background-color: #161b22;
-    color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    font-size: medium;
-    font-weight: bold;
+    background-color: bisque;
 }
-.contact-right span{
-    margin-left: 0.4rem;
+.contact-button:hover{
+    transform: scale(1.02);
+    transition: 0.5s ease;
 }
-.contact-button{
-    margin-bottom: 1rem;
-}
+
+
