@@ -1,6 +1,11 @@
 .App{
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    scroll-behavior: smooth;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
 }
