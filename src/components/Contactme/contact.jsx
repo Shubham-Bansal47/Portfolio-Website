@@ -33,7 +33,7 @@ function Contact(props) {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contactlink">
       <div className="contact-left">
         <p className="contact-touch">
           Get In Touch <i className="fa fa-envelope"></i>

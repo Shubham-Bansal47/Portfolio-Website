@@ -6,7 +6,7 @@ import Buttons from "../Buttons/buttons";
 
 function Profile() {
   return (
-    <div className="profile">
+    <div className="profile" id="profilelink">
       <div className="profile-outer">
         <div className="profile-inner-left">
           <Handles/>

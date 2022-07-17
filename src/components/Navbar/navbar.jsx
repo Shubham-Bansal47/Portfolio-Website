@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import './navbar.css';
 
 function Navbar(){
@@ -8,10 +9,10 @@ function Navbar(){
                 <img src="./assets/navbarpic.jpg" alt="_blank" />
             </div>
             <div className="navbar-right">
-                <a href="">Home</a>
-                <a href="">About Me</a>
-                <a href="">Resume</a>
-                <a href="">Contact Me</a>
+                <Link to="profilelink" spy={true} smooth={true} offset={-180} duration={300}>Home</Link> {/* offset sets scroll little up or down*/}
+                <Link to="aboutmelink" spy={true} smooth={true} offset={-180} duration={300}>About Me</Link>
+                <Link to="resumelink" spy={true} smooth={true} offset={-180} duration={300}>Resume</Link>
+                <Link to="contactlink" spy={true} smooth={true} offset={-180} duration={300}>Contact Me</Link>
             </div>
         </div>
     )

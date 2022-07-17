@@ -4,7 +4,7 @@ import Buttons from "../Buttons/buttons";
 
 function Aboutme() {
   return (
-    <div className="aboutme-main">
+    <div className="aboutme-main" id="aboutmelink">
       <div className="aboutme">
         <div className="aboutme-image">
           <img src="./assets/aboutmepic.jpeg" alt="_blank" />
