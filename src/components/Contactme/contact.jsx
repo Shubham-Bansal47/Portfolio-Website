@@ -27,7 +27,7 @@ function Contact(props) {
 
     // console.log(datarecorded); //getting the object in console
     props.callingcontact(datarecordedcontact);
-    newnameentered(""); // intiialised values of initialname and all to empty
+    newnameentered(""); // initialised values of initialname and all to empty
     newemailentered("");
     newmessageentered("");
   };
