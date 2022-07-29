@@ -1,10 +1,17 @@
-import React from "react";
+import React,{ useEffect } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./aboutme.css";
 import Buttons from "../Buttons/buttons";
 
 function Aboutme() {
+  
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  },[]);
+  
   return (
-    <div className="aboutme-main" id="aboutmelink">
+    <div  data-aos="fade-left" className="aboutme-main" id="aboutmelink">
       <div className="aboutme">
         <div className="aboutme-image">
           <img src="./assets/aboutmepic.jpeg" alt="_blank" />

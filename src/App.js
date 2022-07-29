@@ -9,7 +9,7 @@ import Footer from './components/Footer/footer';
 import Headings from './components/Headings/headings';
 
 function App() {
-  
+
   const list=[
     { 
       heading: "HOME",

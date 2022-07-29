@@ -1,12 +1,19 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./profile.css";
 import Typical from "react-typical";
 import Handles from "../Handles/handles";
 import Buttons from "../Buttons/buttons";
 
 function Profile() {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  },[]);
+
   return (
-    <div className="profile" id="profilelink">
+    <div data-aos="fade-up" className="profile" id="profilelink">
       <div className="profile-outer">
         <div className="profile-inner-left">
           <Handles/>

@@ -1,8 +1,16 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./contact.css";
 import Handles from "../Handles/handles";
 
 function Contact(props) {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  },[]);
+
   const [initialname, newnameentered] = useState(""); // we took empty string in usestate becoz we will recieve a string later
   const [initialemail, newemailentered] = useState("");
   const [initialmessage, newmessageentered] = useState("");
@@ -33,7 +41,7 @@ function Contact(props) {
   };
 
   return (
-    <div className="contact" id="contactlink">
+    <div  data-aos="fade-up" className="contact" id="contactlink">
       <div className="contact-left">
         <p className="contact-touch">
           Get In Touch <i className="fa fa-envelope"></i>
