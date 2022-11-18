@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import { useEffect } from "react";
+import emailjs from '@emailjs/browser';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./contact.css";
@@ -14,6 +15,27 @@ function Contact(props) {
   const [initialname, newnameentered] = useState(""); // we took empty string in usestate becoz we will recieve a string later
   const [initialemail, newemailentered] = useState("");
   const [initialmessage, newmessageentered] = useState("");
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_8dsgyev', 'template_ea2pujr', form.current, 'P_XpSHga7WmT8np9K')
+      .then((result) => {
+          console.log("message sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+      const datarecordedcontact = [
+        { gotname: initialname }, // making object
+        { gotemail: initialemail },
+        { gotmessage: initialmessage },
+      ];
+      props.callingcontact(datarecordedcontact);
+      newemailentered("");
+      newnameentered("");
+      newmessageentered("");
+  };
+
   function nameentered(event) {
     // event is a predefined call in javascript which gets the object details entered in input
     newnameentered(event.target.value);
@@ -23,21 +45,6 @@ function Contact(props) {
   };
   function messageentered(event) {
     newmessageentered(event.target.value);
-  };
-  function submithandler(event) {
-    event.preventDefault(); // stopping the page from reload
-
-    const datarecordedcontact = [
-      { gotname: initialname }, // making object
-      { gotemail: initialemail },
-      { gotmessage: initialmessage },
-    ];
-
-    // console.log(datarecorded); //getting the object in console
-    props.callingcontact(datarecordedcontact);
-    newnameentered(""); // initialised values of initialname and all to empty
-    newemailentered("");
-    newmessageentered("");
   };
 
   return (
@@ -53,9 +60,10 @@ function Contact(props) {
         </div>
       </div>
       <div className="contact-right">
-        <form className="contact-form" onSubmit={submithandler}>
+        <form ref={form} className="contact-form" onSubmit={sendEmail}>
           <span>Name!</span>
           <input
+          name="contactname"
             type="text"
             placeholder="Enter Your Name"
             value={initialname}
@@ -64,6 +72,7 @@ function Contact(props) {
           {/* value sets the value to initialvalue after submit is clicked */}
           <span>Email!</span>
           <input
+          name="contactemail"
             type="email"
             placeholder="Enter Your Email"
             value={initialemail}
@@ -72,6 +81,7 @@ function Contact(props) {
           {/* onchange reflects the change in input every millisecond */}
           <span>Message!</span>
           <textarea
+          name="contactmessage"
             placeholder="Type the text here"
             value={initialmessage}
             onChange={messageentered}

@@ -1,0 +1,27 @@
+.awards{
+    height: 100%;
+    padding: 1rem 0rem 1rem 1rem;
+    margin: 1rem;
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    color: black;
+}    
+.award-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.award-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.hrclass{
+    width: 95%;
+    background-color: white;
+}

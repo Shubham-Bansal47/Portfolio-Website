@@ -11,6 +11,7 @@ import Awards from "./Awards/awards";
 function Resume() {
 
   const [listrenderer,setlistrenderer]=useState(0);
+  const [listdynamic,setdynamic]=useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 1000});
@@ -27,7 +28,7 @@ function Resume() {
   return (
     <div  data-aos="fade-right" className="resume" id="resumelink">
       <div className="resume-left">
-        <span className="label" onClick={()=>{setlistrenderer(0)}}><i className="fa fa-graduation-cap icon1"></i>Education</span>
+        <span className="label" onClick={()=>{setlistrenderer(0); setdynamic(false)}}><i className="fa fa-graduation-cap icon1"></i>Education</span>
         <span className="label" onClick={()=>{setlistrenderer(1)}}><i className="fa fa-calendar-times-o icon1"></i>Projects</span>
         <span className="label" onClick={()=>{setlistrenderer(2)}}><i className="fa fa-laptop icon1"></i>Skills</span>
         <span className="label" onClick={()=>{setlistrenderer(3)}}><i className="fa fa-bar-chart-o icon1"></i>Positions</span>

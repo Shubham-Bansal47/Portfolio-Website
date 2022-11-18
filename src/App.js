@@ -19,7 +19,7 @@ function App() {
       heading: "ABOUT ME",
       intro: "Here's My Short Introduction"
     },
-    {
+    { 
       heading: "RESUME",
       intro: "Have a look at My Resume"
     },
@@ -31,7 +31,7 @@ function App() {
 
   function gettingdatainapp(datarecorded){ // Made a function which gets argument from contact component and 
     const datarecordedapp=[                // spread its data to datarecordedapp object
-      ...datarecorded                      // baically we passed the data from child to parent
+      ...datarecorded                      // basically we passed the data from child to parent
     ];
     console.log(datarecordedapp);
   };

@@ -44,7 +44,7 @@ function Profile() {
               Front-End Web Developer Enthusiast
             </h3>
             <span>  
-            Inclined towards Learning and exploring new stuff!! 
+              Inclined towards Learning and exploring new stuff!! 
             </span>
           </div>
           <Buttons/>

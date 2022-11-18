@@ -44,7 +44,7 @@ function Aboutme() {
                 of my college.
               </li>
               <li>
-                I was in the top 200 students qualifying codechef smackdown
+                I was in the top 200 students qualifying codechef snackdown
                 contest 2021.
               </li>
             </ul>

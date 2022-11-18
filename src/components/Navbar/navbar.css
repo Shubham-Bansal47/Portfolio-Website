@@ -1,4 +1,4 @@
-.navbar{
+ .navbar{
     margin: 0rem;
     background-color: #161b22;
     color: white;
@@ -10,7 +10,7 @@
     /* border-radius: 0.5rem; */
     width: 100%;
     box-shadow: 0px 10px 10px grey;
-    height: 10vh;
+    height: 7vh;
 }
 .navbar-left{
     border-radius: 0.2rem solid white;
