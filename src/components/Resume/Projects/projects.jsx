@@ -13,6 +13,19 @@ function Projects(){
         <div data-aos="fade-in" className="projects">
           <div className="pro-top">
             <div className="pro-left">
+              <h4 className="h4class">&#9830; Health Umbrella Foundation</h4>
+              <h4 className="h4class">* HTML5, CSS, Javacript, ReactJS, Python, Django</h4>
+              <span className="color1">
+                Lead of Frontend Team of project, Built custom designed components, Single Page application, Responsive design.
+              </span>
+            </div>
+            <div className="pro-right">
+              <span className="color1">13th March 2023 </span>
+            </div>
+          </div>
+          <hr className="hrclass"/>
+          <div className="pro-mid1">
+            <div className="pro-left">
               <h4 className="h4class">&#9830; SOS Ukraine</h4>
               <h4 className="h4class">* HTML, CSS, Bootstrap</h4>
               <span className="color1">
@@ -24,12 +37,11 @@ function Projects(){
             </div>
           </div>
           <hr className="hrclass"/>
-          <div className="pro-mid">
+          <div className="pro-mid2">
             <div className="pro-left">
               <h4 className="h4class">&#9830; Personal Portfolio</h4>
-              <h4 className="h4class">* HTML, CSS, Javascript, ReactJS, Bootstrap</h4>
-              <span className="color1">This website is my favorite tech stack I have built till 
-              now with all the custom made components and designs.</span>
+              <h4 className="h4class">* HTML, CSS, Javascript, ReactJS</h4>
+              <span className="color1">This website gives a brief idea about my qualification, education, Skills and projects made by me so far.</span>
             </div>
             <div className="pro-right">
               <span className="color1">1st May 2022 - 15th June 2022 </span>
@@ -39,7 +51,7 @@ function Projects(){
           <div className="pro-bottom">
             <div className="pro-left">
               <h4 className="h4class">&#9830; E-Commerce Website Design</h4>
-              <h4 className="h4class">* HTML, CSS, Bootstrap</h4>
+              <h4 className="h4class">* HTML, CSS</h4>
               <span className="color1">Made Front-End design of a Coffee beans selling website.</span>
             </div>
             <div className="pro-right">

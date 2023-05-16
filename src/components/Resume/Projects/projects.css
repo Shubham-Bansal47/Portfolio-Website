@@ -10,7 +10,7 @@
     justify-content: space-around;
     color: black;
 }
-.pro-top,.pro-mid,.pro-bottom{
+.pro-top,.pro-mid1,.pro-mid2,.pro-bottom{
     width: 90%;
     border-radius: 0.5rem;
     display: flex;

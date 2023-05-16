@@ -36,9 +36,6 @@ function Resume() {
       </div>
       <div className="resume-right">
         {list[listrenderer]}
-        {/* <Education/> */}
-        {/* <Projects/> */}
-        {/* <Positions/> */}
       </div>
     </div>
   );

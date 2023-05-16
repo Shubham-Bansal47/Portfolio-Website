@@ -22,9 +22,9 @@ function Aboutme() {
               I am an Engineering Undergraduate studing in The LNM Institute of
               Information Technology, Jaipur.I am more tilted towards the tech
               world with handful experience on web development and had made
-              significant advancement with some amazing projects based on
-              Front-End frameworks which includes and SOS message sending website, E-Commerce Coffee Website,
-              Personal Portfolio and many more.
+              significant advancement with some amazing projects with
+              Front-End frameworks which includes Disease curing website (Health Umbrella Foundation), SOS message sending website,
+              Photovamps (Find a suitable photographer, developer, designer), Personal Portfolio and many more.
             </p>
           </div>
           <div className="aboutme-skills">
@@ -38,6 +38,14 @@ function Aboutme() {
             </ul>
             <p>Some Of My Achievements:</p>
             <ul>
+            <li>
+                Secured 7<sup>th</sup> position in global hackathon held on DEVPOST.
+                Built a emergency message sending website.
+              </li>
+              <li>
+                Secured 4<sup>th</sup> position in Techathon 2.0 held at JECRC, Jaipur.
+                Built a meeting scheduler website for corporate sector.
+              </li>
               <li>
                 Secured 1<sup>st</sup> position in yellow pages event (Best
                 start-up idea pitching wins the show) of Entrepreneurship Cell

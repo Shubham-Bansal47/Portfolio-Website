@@ -27,7 +27,7 @@ function Skills(){
                 <div className="skill-left">
                     <h4 className="h4class">&#9830; Web Development</h4>
                     <span className="color1">
-                        * HTML, CSS, Javascript, ReactJS
+                        * HTML, CSS, Javascript, ReactJS, Bootstrap
                     </span>
                 </div>
                 <div className="skill-right">
@@ -43,7 +43,7 @@ function Skills(){
                     </span>
                 </div>
                 <div className="skill-right">
-                    <span>&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                    <span>&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                 </div>
             </div>
             <hr className="hrclass"/>
