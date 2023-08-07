@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Profile from './components/Profile/profile';
+import Home from './components/Home/home';
 import Navbar from './components/Navbar/navbar';
 import Contact from './components/Contactme/contact';
 import Aboutme from './components/Aboutme/aboutme';
@@ -42,7 +42,7 @@ function App() {
       <Headings 
       sendingtitle={list[0].heading} 
       sendingintro={list[0].intro}/>
-      <Profile/>
+      <Home/>
       <Headings 
       sendingtitle={list[1].heading} 
       sendingintro={list[1].intro}/>

@@ -27,7 +27,8 @@ function Skills(){
                 <div className="skill-left">
                     <h4 className="h4class">&#9830; Web Development</h4>
                     <span className="color1">
-                        * HTML, CSS, Javascript, ReactJS, Bootstrap
+                        * HTML, CSS, Javascript 
+                        <br></br>* ReactJS, ExpressJS, NodeJS, MongoDB
                     </span>
                 </div>
                 <div className="skill-right">

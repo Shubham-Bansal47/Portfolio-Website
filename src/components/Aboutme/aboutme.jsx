@@ -23,28 +23,24 @@ function Aboutme() {
               Information Technology, Jaipur.I am more tilted towards the tech
               world with handful experience on web development and had made
               significant advancement with some amazing projects with
-              Front-End frameworks which includes Disease curing website (Health Umbrella Foundation), SOS message sending website,
-              Photovamps (Find a suitable photographer, developer, designer), Personal Portfolio and many more.
+              Front-End frameworks which includes Disease curing website (Health Umbrella Foundation), SOS message sending prototype,
+              Facebook Clone, Personal Portfolio Website and many more.
             </p>
           </div>
           <div className="aboutme-skills">
             <p>Some Of My Professional Skills:</p>
             <ul>
-              <li>HTML, CSS Javascript, Bootstrap</li>
+              <li>HTML, CSS, Javascript</li> 
+              <li>ReactJS, NodeJS, ExpressJS, MongoDB</li>
               <li>C, C++</li>
               <li>Data Structures And Algorithms </li>
-              <li>React JS</li>
-              <li>Git, Github</li>
+              <li>Github</li>
             </ul>
             <p>Some Of My Achievements:</p>
             <ul>
-            <li>
-                Secured 7<sup>th</sup> position in global hackathon held on DEVPOST.
-                Built a emergency message sending website.
-              </li>
               <li>
-                Secured 4<sup>th</sup> position in Techathon 2.0 held at JECRC, Jaipur.
-                Built a meeting scheduler website for corporate sector.
+                Secured 7<sup>th</sup> position in Techathon 2.0 held at JECRC, Jaipur.
+                Built a emergency message sending website.
               </li>
               <li>
                 Secured 1<sup>st</sup> position in yellow pages event (Best

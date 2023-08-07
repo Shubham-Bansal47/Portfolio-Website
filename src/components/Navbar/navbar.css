@@ -1,20 +1,21 @@
  .navbar{
     margin: 0rem;
+    padding: 0rem;
     background-color: #161b22;
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 2rem 0rem 2rem 0rem;
+    /* padding: 1rem 0rem 1rem 0rem; */
     align-items: center;
     justify-content: space-around;
     /* border-radius: 0.5rem; */
     width: 100%;
     box-shadow: 0px 10px 10px grey;
-    height: 7vh;
+    height: 11vh;
 }
 .navbar-left{
     border-radius: 0.2rem solid white;
-    height: 100%;
+    height: 70%;
 }
 .navbar-left img{
     border: 0.2rem solid white;
@@ -31,13 +32,13 @@
 .navbar-right a{
     margin: 0rem 2rem;
     text-decoration: none;
-    font-size: x-large;
+    font-size: large;
     color: white;
 }
 .navbar-right a:hover{
     color: orangered;
     padding-bottom: 1rem;
-    text-decoration: 0.3rem underline;
+    text-decoration: 0.1rem underline;
     transition: 0.5s ease;
     cursor: pointer;
 }

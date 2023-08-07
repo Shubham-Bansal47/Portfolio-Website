@@ -13,20 +13,10 @@ function Awards(){
         <div data-aos="fade-in" className="awards">
             <div className="award-blocks">
                 <div className="award-left">
-                    <h4 className="h4class">&#9830; 7th position globally in Hackathon</h4>
+                    <h4 className="h4class">&#9830; 7th position in Techathon 2.0</h4>
                     <span className="color1">
-                        * Secured 7th position in hackathon held virtually on DEVPOST platform, 
+                        * Secured 7th position in techathon held at JECRC university jaipur, 
                         We made an emergency message sending (SOS) website.
-                    </span>
-                </div>
-            </div>
-            <hr className="hrclass"/>
-            <div className="award-blocks">
-                <div className="award-left">
-                    <h4 className="h4class">&#9830; 4th position in Techathon 2.0</h4>
-                    <span className="color1">
-                        * Secured 4th position in techathon held at JECRC university jaipur, 
-                        Our project was to make a time scheduler for corporate meetings.
                     </span>
                 </div>
             </div>
