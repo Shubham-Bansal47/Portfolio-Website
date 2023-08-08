@@ -16,7 +16,7 @@ function Home() {
     <div data-aos="fade-up" className="profile" id="profilelink">
       <div className="profile-outer">
         <div className="profile-inner-left">
-          <Handles/>
+          <Handles className="profile-handles"/>
           <div className="profile-name">
             Hello, I am <span>SHUBHAM</span>
           </div>

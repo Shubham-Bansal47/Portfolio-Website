@@ -53,7 +53,7 @@ function Aboutme() {
               </li>
             </ul>
           </div>
-          <Buttons />
+          <Buttons className="aboutme-button"/>
         </div>
       </div>
     </div>

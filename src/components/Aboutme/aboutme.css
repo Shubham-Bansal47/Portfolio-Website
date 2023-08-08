@@ -1,7 +1,8 @@
 .aboutme{
     background-color: #161b22;
     width: 80vw;
-    height: 90vh;
+    /* height: 90vh; */
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,8 +11,8 @@
     box-shadow: 0px 0px 30px black;
 }
 .aboutme-image{
-    width: 20%;
-    height: 70vh;
+    width: 30%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,11 +20,11 @@
 .aboutme-image img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit:cover;
 }
 .aboutme-text{
     width: 60%;
-    height: 70vh;
+    height: 100%;
     background-color: #161b22;
     /* padding: 1rem; */
     /* border: 0.2rem solid white; */
@@ -31,7 +32,40 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: medium;
 }
 .aboutme-skills ul{
     color: orange;
+}
+@media (max-width:1061px) {
+    .aboutme-text{
+        font-size: small;
+    }
+}
+@media (max-width:870px) {
+    .aboutme-button{
+        font-size: xx-small;
+    }
+}
+@media (max-width:724px) {
+    .aboutme{
+        width: 100vw;
+    }
+}
+@media (max-width:595px) {
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .aboutme-image{
+        width: 30vw;
+    }
+    .aboutme-image img{
+        border-radius: 5rem;
+    }
+    .aboutme-text{
+        width: 80%;
+    }
 }

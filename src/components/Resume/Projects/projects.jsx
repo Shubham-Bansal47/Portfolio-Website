@@ -47,7 +47,7 @@ function Projects(){
               <span className="color1">1st May 2022 - 15th June 2022 </span>
             </div>
           </div>
-          <hr className="hrclass"/>
+          {/* <hr className="hrclass"/>
           <div className="pro-bottom">
             <div className="pro-left">
               <h4 className="h4class">&#9830; E-Commerce Website Design</h4>
@@ -57,7 +57,7 @@ function Projects(){
             <div className="pro-right">
               <span className="color1">1st Jan 2021 - 20th Jan 2021</span>
             </div>
-          </div>
+          </div> */}
         </div>
     )
 };

@@ -1,12 +1,18 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-scroll";
 import './navbar.css';
 
 function Navbar(){
+    const [hamburger,setHamburger]=useState(0);
+    const hamburgerHandler=()=>{
+        setHamburger(!hamburger);
+    }
+
     return(
         <div className="navbar">
             <div className="navbar-left">
                 <img src="./assets/navbarpic.jpg" alt="_blank" />
+                <h3>My Portfolio</h3>
             </div>
             <div className="navbar-right">
                 <Link to="profilelink" spy={true} smooth={true} offset={-180} duration={300}>Home</Link> {/* offset sets scroll little up or down*/}

@@ -57,5 +57,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: medium;
 }
-
+@media (max-width:1268px) {
+    .resume-right{
+        font-size: small;
+    }
+}
+@media (max-width:724px) {
+    .resume{
+        width: 100vw;
+    }
+}
+@media (max-width:578px) {
+    .resume-left i{
+        display: none;
+    }
+}
