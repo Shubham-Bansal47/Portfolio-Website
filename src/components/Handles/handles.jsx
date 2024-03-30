@@ -10,13 +10,13 @@ function Handles(){
             <a href="https://www.linkedin.com/in/shubham-bansal-582b80236/">
               <i className="fa fa-linkedin-square"></i>
             </a>
-            <a href="#">
+            <a href="/">
               <i className="fa fa-twitter-square"></i>
             </a>
-            <a href="#">
+            <a href="/">
               <i className="fa fa-facebook-square"></i>
             </a>
-            <a href="#">
+            <a href="/">
               <i className="fa fa-google-plus-square"></i>
             </a>
         </div>

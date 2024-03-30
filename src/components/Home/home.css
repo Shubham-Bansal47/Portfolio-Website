@@ -41,9 +41,11 @@
   color:burlywood;
 }
 .profile-skill-heading{
+  display: flex;
+  flex-direction: column;
   color: #2E8F0A;
   font-family: italic;
-  font-size: xx-large;
+  font-size: large;
 }
 .profile-brief h3{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

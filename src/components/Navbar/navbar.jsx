@@ -1,13 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 import { Link } from "react-scroll";
 import './navbar.css';
 
 function Navbar(){
-    const [hamburger,setHamburger]=useState(0);
-    const hamburgerHandler=()=>{
-        setHamburger(!hamburger);
-    }
-
+    
     return(
         <div className="navbar">
             <div className="navbar-left">

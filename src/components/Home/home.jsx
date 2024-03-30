@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./home.css";
-import Typical from "react-typical";
 import Handles from "../Handles/handles";
 import Buttons from "../Buttons/buttons";
 
@@ -22,19 +21,10 @@ function Home() {
           <div className="profile-skill">
             <span className="profile-skill-name">
               <h1 className="profile-skill-heading">
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "Web Developer 👨‍💻",
-                    1000,
-                    "Tech Enthusiast 😀",
-                    1000,
-                    "Esports Gamer ✒️",
-                    1000,
-                    "Engineering Undergrad 👨‍🎓",
-                    1000,
-                  ]}
-                />
+                <span>! Web Developer !👨‍💻</span>
+                <span>! Tech Enthusiast !😀</span>
+                <span>! Esports Gamer !✒️</span>
+                <span>! Engineering Undergrad !👨‍🎓</span>
               </h1>
             </span>
           </div>
