@@ -1,4 +1,4 @@
-import React,{ useEffect, useState } from 'react';
+import React,{ useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./skills.css";
@@ -28,7 +28,7 @@ function Skills(){
                     <h4 className="h4class">&#9830; Web Development</h4>
                     <span className="color1">
                         * HTML, CSS, Javascript 
-                        <br></br>* ReactJS, ExpressJS, NodeJS, MongoDB
+                        <br></br>* PostgreSQL, MongoDB, ExpressJS, ReactJS, NodeJS
                     </span>
                 </div>
                 <div className="skill-right">
@@ -52,7 +52,7 @@ function Skills(){
                 <div className="skill-left">
                     <h4 className="h4class">&#9830; Development Tools</h4>
                     <span className="color1">
-                        * Git, Github, VS Code
+                        * Git, Github, VS Code, Postman, Linear
                     </span>
                 </div>
                 <div className="skill-right">

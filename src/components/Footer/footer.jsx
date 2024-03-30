@@ -1,4 +1,3 @@
-import react from 'react';
 import './footer.css';
 import Handles from '../Handles/handles';
 
